@@ -1,0 +1,11 @@
+(module "hole" (layer "F.Cu") (tedit 5F79EBD3)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c915e293-3e4c-4ecc-b39d-ae9cba1bd49b)
+  )
+  (fp_text value "hole" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 82b0b6c3-e90a-49f7-b0c3-f59374391a32)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Mask) (tstamp 017c83f9-776d-4523-a3b8-d35b601f51ee))
+)
