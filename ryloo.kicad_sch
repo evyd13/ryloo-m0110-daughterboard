@@ -667,7 +667,7 @@
     (property "Value" "HRO-TYPE-C-31-M-12" (id 1) (at 54.1274 48.4886 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Keeb_components:HRO-TYPE-C-31-M-12" (id 2) (at 58.42 66.04 0)
+    (property "Footprint" "Keeb_components:CONN_HRO-TYPE-C-31-M-12" (id 2) (at 58.42 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 58.42 66.04 0)
@@ -697,7 +697,7 @@
     (property "Value" "Conn_01x04" (id 1) (at 160.782 93.3196 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Keeb_components:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" (id 2) (at 158.75 90.805 0)
+    (property "Footprint" "Keeb_components:CONN_JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" (id 2) (at 158.75 90.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 158.75 90.805 0)
@@ -816,7 +816,7 @@
     (uuid 0c6553f1-2edc-42e5-b228-c8f88411feef)
     (property "Reference" "U1" (id 0) (at 118.11 72.39 0))
     (property "Value" "USBLC6-2SC6" (id 1) (at 118.11 69.85 0))
-    (property "Footprint" "Keeb_components:USBLC6-2SC6" (id 2) (at 110.49 71.12 0)
+    (property "Footprint" "Keeb_components:PACKAGE_SOT-23-6" (id 2) (at 110.49 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at 110.49 73.66 0)
@@ -923,10 +923,10 @@
       (reference "F1") (unit 1) (value "Polyfuse") (footprint "Keeb_components:F_0805")
     )
     (path "/00000000-0000-0000-0000-00005c91af59"
-      (reference "J1") (unit 1) (value "HRO-TYPE-C-31-M-12") (footprint "Keeb_components:HRO-TYPE-C-31-M-12")
+      (reference "J1") (unit 1) (value "HRO-TYPE-C-31-M-12") (footprint "Keeb_components:CONN_HRO-TYPE-C-31-M-12")
     )
     (path "/00000000-0000-0000-0000-00005c91afcb"
-      (reference "J2") (unit 1) (value "Conn_01x04") (footprint "Keeb_components:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal")
+      (reference "J2") (unit 1) (value "Conn_01x04") (footprint "Keeb_components:CONN_JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005c91b042"
       (reference "R1") (unit 1) (value "5.1k") (footprint "Keeb_components:R_0805")
@@ -935,7 +935,7 @@
       (reference "R2") (unit 1) (value "5.1k") (footprint "Keeb_components:R_0805")
     )
     (path "/0c6553f1-2edc-42e5-b228-c8f88411feef"
-      (reference "U1") (unit 1) (value "USBLC6-2SC6") (footprint "Keeb_components:USBLC6-2SC6")
+      (reference "U1") (unit 1) (value "USBLC6-2SC6") (footprint "Keeb_components:PACKAGE_SOT-23-6")
     )
   )
 )
